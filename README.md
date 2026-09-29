@@ -4,7 +4,7 @@ This project analyzes NASA EMIT Level 1B hyperspectral radiance to investigate t
 
 The goal is to test whether the O₂ absorption signal that is useful in passive atmospheric ranging studies can also be identified and characterized in real orbital imaging-spectroscopy data. Using an EMIT scene acquired over the Republic of Georgia on 3 June 2026, the analysis examines radiance across spectral channels surrounding the O₂ A-band, constructs a continuum-normalized absorption index, maps its spatial variation across the scene, and evaluates how the signal changes with surface elevation.
 
-A strong decrease in continuum-normalized O₂ A-band depth is observed over the 100–2000 m elevation range. Across more than one million valid pixels, the relationship has a pixel-level correlation of **r = -0.874**, while 100-m elevation-bin means produce **r = -0.995** with a slope of approximately **-0.0388 km⁻¹**.
+A strong decrease in continuum-normalized O₂ A-band depth is observed over the 100-2000 m elevation range. Across more than one million valid pixels, the relationship has a pixel-level correlation of **r = -0.874**, while 100-m elevation-bin means produce **r = -0.995** with a slope of approximately **-0.0388 km⁻¹**.
 
 The analysis also evaluates neighboring wavelengths to determine whether the elevation response is spectrally specific. The results show substantial wavelength dependence, providing evidence that the observed relationship is not simply a uniform radiometric trend across all nearby EMIT channels.
 
